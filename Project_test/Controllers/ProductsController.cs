@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -47,6 +48,7 @@ namespace Project_test.Controllers
             return View(product);
         }
 
+        [Authorize]
         // GET: Products/Create
         public IActionResult Create()
         {
@@ -77,7 +79,7 @@ namespace Project_test.Controllers
                     }
 
                     // Update the product model with the image filename
-                    //product.ImageFileName = uniqueFileName;
+                    product.ImagePath = uniqueFileName;
                 }
 
                 // Save the product to the database
@@ -91,6 +93,8 @@ namespace Project_test.Controllers
             return View(product);
         }
 
+        [Authorize]
+        [Route("Products/Edit/{id}")]
         // GET: Products/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -104,7 +108,8 @@ namespace Project_test.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryID"] = new SelectList(_context.Category, "ID", "ID", product.CategoryID);
+            ViewData["CategoryID"] = new SelectList(_context.Category, "ID", "Name", product.CategoryID);
+            ViewBag.ExistingImagePath = product.ImagePath;
             return View(product);
         }
 
@@ -112,8 +117,9 @@ namespace Project_test.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("Products/Edit/{id}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,CategoryID,Name,Description,Price")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,CategoryID,Name,Description,Price")] Product product, IFormFile ImageFileName)
         {
             if (id != product.ID)
             {
@@ -124,6 +130,21 @@ namespace Project_test.Controllers
             {
                 try
                 {
+                    if (ImageFileName != null)
+                    {
+                        // Save the image to a unique filename
+                        var uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFileName.FileName;
+                        var imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", uniqueFileName);
+
+                        using (var fileStream = new FileStream(imagePath, FileMode.Create))
+                        {
+                            await ImageFileName.CopyToAsync(fileStream);
+                        }
+
+                        // Update the product model with the image filename
+                        product.ImagePath = uniqueFileName;
+                    }
+
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
@@ -138,12 +159,17 @@ namespace Project_test.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryID"] = new SelectList(_context.Category, "ID", "ID", product.CategoryID);
+
+            // If the model state is not valid, return to the edit view with the existing data
+            ViewData["CategoryID"] = new SelectList(_context.Category, "ID", "Name", product.CategoryID);
             return View(product);
         }
 
+
+        [Authorize]
         // GET: Products/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

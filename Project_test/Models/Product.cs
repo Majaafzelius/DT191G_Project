@@ -11,6 +11,7 @@ namespace Project_test.Models
 
         [NotMapped]
         public IFormFile? ImageFileName { get; set; }
+        public string? ImagePath { get; set; }
         public int Price { get; set; }
         public Category? Category { get; set; }
     }
