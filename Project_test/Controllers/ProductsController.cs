@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -23,11 +24,23 @@ namespace Project_test.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
             var project_testContext = _context.Product.Include(p => p.Category);
             return View(await project_testContext.ToListAsync());
+        }*/
+        public async Task<IActionResult> Index(string searchString)
+        {
+            var products = _context.Product.Include(p => p.Category).AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p => p.Name.Contains(searchString) || p.Description.Contains(searchString));
+            }
+
+            return View(await products.ToListAsync());
         }
+
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -69,6 +82,9 @@ namespace Project_test.Controllers
                 // Handle image upload
                 if (ImageFileName != null)
                 {
+
+                    product.UserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
                     // Save the image to a unique filename
                     var uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFileName.FileName;
                     var imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "images", uniqueFileName);
@@ -104,6 +120,11 @@ namespace Project_test.Controllers
             }
 
             var product = await _context.Product.FindAsync(id);
+
+            if (product.UserId != User.FindFirst(ClaimTypes.NameIdentifier)?.Value)
+            {
+                return Forbid(); // Or handle unauthorized access as needed
+            }
             if (product == null)
             {
                 return NotFound();
@@ -125,6 +146,8 @@ namespace Project_test.Controllers
             {
                 return NotFound();
             }
+
+            
 
             if (ModelState.IsValid)
             {
@@ -184,6 +207,11 @@ namespace Project_test.Controllers
             if (product == null)
             {
                 return NotFound();
+            }
+
+            if (product.UserId != User.FindFirst(ClaimTypes.NameIdentifier)?.Value)
+            {
+                return Forbid(); // Or handle unauthorized access as needed
             }
 
             return View(product);

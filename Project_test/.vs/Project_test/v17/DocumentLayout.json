@@ -3,60 +3,87 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240222125523_show_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240222125523_show_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\data\\project_testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:data\\project_testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\data\\project_testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:data\\project_testcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\migrations\\20240221115241_upload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:migrations\\20240221115241_upload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\migrations\\20240222125523_show_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:migrations\\20240222125523_show_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\migrations\\20240304095927_delete-auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:migrations\\20240304095927_delete-auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|c:\\xampp\\htdocs\\dt191g\\dt191g_project\\project_test\\migrations\\20240304095243_edit-auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71880F1-5BD4-41A2-B9FF-B44EDCD6070F}|Project_test.csproj|solutionrelative:migrations\\20240304095243_edit-auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,84 +93,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAYwKkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:35:59.97Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T13:11:06.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "Views\\Products\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T12:59:11.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240222125523_show_image.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240222125523_show_image.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240222125523_show_image.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240222125523_show_image.cs",
-              "RelativeToolTip": "Migrations\\20240222125523_show_image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T12:55:23.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T09:21:48.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAUwFEAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T10:18:46.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T10:18:46.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "Views\\Products\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-21T10:20:40.511Z",
+              "WhenOpened": "2024-02-21T09:41:19.204Z",
               "EditorCaption": ""
             },
             {
@@ -154,14 +140,157 @@
               "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAABQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-21T10:18:52.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T10:18:52.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-22T12:59:11.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-22T13:11:06.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T10:20:40.511Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T13:28:31.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T09:51:43.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T12:45:14.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:21:48.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:21:38.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:15:41.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-04T10:50:39.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAKEBAAAAAAAAAAAAAGQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-05T11:01:36.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAKISAAAAAAAAAAAWwKcSAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-04T12:36:27.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Project_testContext.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Data\\Project_testContext.cs",
               "RelativeDocumentMoniker": "Data\\Project_testContext.cs",
@@ -169,38 +298,47 @@
               "RelativeToolTip": "Data\\Project_testContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T12:55:12.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T12:55:12.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAwHkAAAATAAAA",
+              "DocumentIndex": 19,
+              "Title": "20240304095927_delete-auth.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240304095927_delete-auth.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240304095927_delete-auth.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240304095927_delete-auth.cs",
+              "RelativeToolTip": "Migrations\\20240304095927_delete-auth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T09:35:59.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T09:59:27.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "DocumentIndex": 20,
+              "Title": "20240304095243_edit-auth.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240304095243_edit-auth.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240304095243_edit-auth.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240304095243_edit-auth.cs",
+              "RelativeToolTip": "Migrations\\20240304095243_edit-auth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T09:15:41.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T09:52:43.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
+              "Title": "20240222125523_show_image.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240222125523_show_image.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240222125523_show_image.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240222125523_show_image.cs",
+              "RelativeToolTip": "Migrations\\20240222125523_show_image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T12:55:23.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "20240221115241_Upload.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Migrations\\20240221115241_Upload.cs",
               "RelativeDocumentMoniker": "Migrations\\20240221115241_Upload.cs",
@@ -209,42 +347,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T11:52:41.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T09:21:38.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-21T09:51:43.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\xampp\\htdocs\\DT191G\\DT191G_Project\\Project_test\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-21T09:41:19.204Z"
             }
           ]
         }

@@ -4,32 +4,55 @@
     ViewData["Title"] = "Categories";
 }
 
-<h1>Kategorier</h1>
+<h1>Welcome</h1>
+<div class="grid">
+<section>
+    <h2>Why Choose Us?</h2>
+    <p>Discover the easiest way to sell your items online. Join our platform and reach a wide audience.</p>
+    <ul>
+        <li>Simple Posting Process</li>
+        <li>Secure Transactions</li>
+        <li>Broad User Base</li>
+    </ul>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <h2>How It Works</h2>
+    <p>Follow these simple steps to start selling on our platform:</p>
+    <ol>
+        <li>Register for an account</li>
+        <li>Create a listing for your item</li>
+        <li>Connect with potential buyers</li>
+        <li>Complete the transaction</li>
+    </ol>
+</section>
+    <aside class="right">
+        <p>
+            <a asp-action="Create">Create new Category</a> <br>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParam"]">Sort Categories</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Name)</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.ID">@Html.DisplayFor(modelItem => item.Name)</a>
+                        </td>
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </aside>
+</div>

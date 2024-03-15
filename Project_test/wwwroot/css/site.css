@@ -18,5 +18,94 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.card {
+    height: 100%;
+}
+
+.card img {
+    max-height: 250px;
+    height: 60%; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire card */
+}
+header {
+    background-color: #6270b1;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.footer {
+    background-color:#6270b1;
+    color:white;
+}
+.btn-primary {
+    background-color: #6270b1;
+    border: 2px solid black;
+    color: white;
+}
+.btn-secondary {
+    background-color: #c3ccf3;
+    border: 2px solid black;
+    color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Clear the floats */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #3d4671;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+@media screen and (min-width:992px) 
+{
+    section {
+        margin-bottom: 20px;
+        float: left; /* Float left to create a two-column layout */
+        width: 60%; /* Adjust as needed */
+    }
+
+    aside {
+        float: right; /* Float right to create a two-column layout */
+        width: 40%; /* Adjust as needed */
+    }
 }

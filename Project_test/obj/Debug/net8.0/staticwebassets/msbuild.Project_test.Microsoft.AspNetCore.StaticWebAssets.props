@@ -32,12 +32,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1e644caa-40e1-4ef7-ad7f-82b082857ed4_Skärmbild 2023-04-12 091636.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\80786815-733c-4b8c-86c5-e3689a7bc999_Skärmbild 2023-04-04 152120.png))">
       <SourceType>Package</SourceType>
       <SourceId>Project_test</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/1e644caa-40e1-4ef7-ad7f-82b082857ed4_Skärmbild 2023-04-12 091636.png</RelativePath>
+      <RelativePath>images/80786815-733c-4b8c-86c5-e3689a7bc999_Skärmbild 2023-04-04 152120.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1e644caa-40e1-4ef7-ad7f-82b082857ed4_Skärmbild 2023-04-12 091636.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\80786815-733c-4b8c-86c5-e3689a7bc999_Skärmbild 2023-04-04 152120.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\264d7dc8-aa6a-41e9-af98-37af23f52359_adrie.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\835c7b4a-3c36-462e-b782-1634234cd97d_Skärmbild 2023-09-21 153658.png))">
       <SourceType>Package</SourceType>
       <SourceId>Project_test</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/264d7dc8-aa6a-41e9-af98-37af23f52359_adrie.png</RelativePath>
+      <RelativePath>images/835c7b4a-3c36-462e-b782-1634234cd97d_Skärmbild 2023-09-21 153658.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\264d7dc8-aa6a-41e9-af98-37af23f52359_adrie.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\835c7b4a-3c36-462e-b782-1634234cd97d_Skärmbild 2023-09-21 153658.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5f4f07e1-2ae7-41e5-8749-092fb6ef73e1_adrie.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b9505f17-4648-437e-985d-59c6a931c96c_Skärmbild 2023-04-03 213325.png))">
       <SourceType>Package</SourceType>
       <SourceId>Project_test</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/5f4f07e1-2ae7-41e5-8749-092fb6ef73e1_adrie.png</RelativePath>
+      <RelativePath>images/b9505f17-4648-437e-985d-59c6a931c96c_Skärmbild 2023-04-03 213325.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5f4f07e1-2ae7-41e5-8749-092fb6ef73e1_adrie.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b9505f17-4648-437e-985d-59c6a931c96c_Skärmbild 2023-04-03 213325.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6b09618b-b2fb-40b0-9257-190cba58f4e3_bg3_banner.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f15b2ef0-0866-4d40-9da1-e9777f53dcd3_Skärmbild 2023-04-14 152040.png))">
       <SourceType>Package</SourceType>
       <SourceId>Project_test</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/6b09618b-b2fb-40b0-9257-190cba58f4e3_bg3_banner.png</RelativePath>
+      <RelativePath>images/f15b2ef0-0866-4d40-9da1-e9777f53dcd3_Skärmbild 2023-04-14 152040.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,87 +94,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6b09618b-b2fb-40b0-9257-190cba58f4e3_bg3_banner.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9b4f30be-c96c-48bd-b2c1-2f88c1379fe3_adrie.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project_test</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/9b4f30be-c96c-48bd-b2c1-2f88c1379fe3_adrie.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9b4f30be-c96c-48bd-b2c1-2f88c1379fe3_adrie.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9ddfa38e-1d78-4680-a4c2-208a1bca0876_bg3_banner.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project_test</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/9ddfa38e-1d78-4680-a4c2-208a1bca0876_bg3_banner.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9ddfa38e-1d78-4680-a4c2-208a1bca0876_bg3_banner.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ba9a7cbd-f0b9-4856-bc2e-814186d7be44_adrie.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project_test</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/ba9a7cbd-f0b9-4856-bc2e-814186d7be44_adrie.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ba9a7cbd-f0b9-4856-bc2e-814186d7be44_adrie.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d3532efd-555c-4592-8b9f-5f389c70b056_Skärmbild 2023-04-14 114015.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project_test</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/d3532efd-555c-4592-8b9f-5f389c70b056_Skärmbild 2023-04-14 114015.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d3532efd-555c-4592-8b9f-5f389c70b056_Skärmbild 2023-04-14 114015.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\def9702e-7643-4aa8-a71b-7fe9b99f671d_adrie.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Project_test</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Project_test</BasePath>
-      <RelativePath>images/def9702e-7643-4aa8-a71b-7fe9b99f671d_adrie.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\def9702e-7643-4aa8-a71b-7fe9b99f671d_adrie.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f15b2ef0-0866-4d40-9da1-e9777f53dcd3_Skärmbild 2023-04-14 152040.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>

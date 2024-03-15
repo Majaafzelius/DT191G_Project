@@ -21,27 +21,42 @@ namespace Project_test.Controllers
         }
 
         // GET: Categories
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
             return View(await _context.Category.ToListAsync());
+        }*/
+        public async Task<IActionResult> Index(string sortOrder)
+        {
+            ViewData["NameSortParam"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+
+            var categories = _context.Category.AsQueryable();
+
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    categories = categories.OrderByDescending(c => c.Name);
+                    break;
+                default:
+                    categories = categories.OrderBy(c => c.Name);
+                    break;
+            }
+
+            return View(await categories.ToListAsync());
         }
 
         // GET: Categories/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int id)
         {
-            if (id == null)
+            var categoryWithProducts = _context.Category
+                .Include(c => c.Products) // Include the related products
+                .FirstOrDefault(c => c.ID == id);
+
+            if (categoryWithProducts == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Category
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (category == null)
-            {
-                return NotFound();
-            }
-
-            return View(category);
+            return View(categoryWithProducts);
         }
 
         [Authorize]
@@ -68,6 +83,7 @@ namespace Project_test.Controllers
         }
 
         [Authorize]
+        [Authorize(Roles = "Admin")]
         // GET: Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -120,6 +136,7 @@ namespace Project_test.Controllers
         }
 
         [Authorize]
+        [Authorize(Roles = "Admin")]
         // GET: Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
