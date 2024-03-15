@@ -5,8 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<Project_testContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Project_testContext") ?? throw new InvalidOperationException("Connection string 'Project_testContext' not found.")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
